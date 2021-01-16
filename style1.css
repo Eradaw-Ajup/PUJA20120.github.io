@@ -1,7 +1,156 @@
-body{
-    padding: 0.01%;
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    
+  }
+.heading{
+    font-size: 70px;
+    text-align: center;
+}
+p{
+
+    font-size: 20px;
+    text-align: center;
+    
+}
+.border{
+    width: auto;
+    height: 10px;
+    background-color: black;
+}
+#d_image{
+    height: 500px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10%;
+    
+    
+}
+.img {
+    
+    background-position: center;
+    border-radius: 10%;
+    margin-left: 15px;
+    transition: 1%;
+    box-shadow: 0px 10px 10px 0px rgb(6, 7, 7);
+    
+}
+.img:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 10px 20px 20px 2px rgb(71, 75, 66);
+}
+
+
+.border{
+  width: auto;
+  height: 5px;
+  background-color: black;
+}
+.navbar{
+  
+  width: 100%;
+  background-color:rgb(235, 172, 113) ;
+  overflow: auto;
+}
+.navbar a{
+  float: left;
+  text-align: center;
+  padding: 10px 15px;
+  color: aliceblue;
+  font-size: 15px;
+}
+.navbar a:hover{
+  background-color: rgb(201, 202, 198);
+  color:black ;
+}
+.present{
+  background-color: rgb(201, 113, 87);
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  padding: 10px 15px;
+  background-color: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(223, 186, 153);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  box-shadow: 0px 0px 10px 1px black;
+  border-radius: 5px;
+}
+.dropdown-content a {
+  float: none;
+  color: aliceblue;
+  padding: 10px 15px;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropbtn {
+  background-color: rgb(201, 202, 198);
+  color:black ;
+}
+.dropdown-content a:hover {
+  background-color: rgb(218, 210, 210);
+  color: black;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 h1{
     text-align: center;
-    font-size: 100px;
+}p{
+    text-align: center;
 }
+
+.card {
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    width: 1000px;
+    background: #f1f1f1;
+    margin-bottom: 1rem;
+}
+.card > div {
+    padding: 2rem;
+}
+.img2 {
+    height: 200px;
+    width: 200px;
+}
+.card:nth-child(even) img {
+    order: 2;
+}
+  
+.bottom{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(235, 172, 113);
+    overflow: auto;
+}
+.bottom a {
+    
+    float: center;
+    text-align: center;
+    padding: 12px;
+    color: rgb(245, 240, 237);
+    font-size: 17px;
+}
+.bottom a:hover {
+    background-color: rgb(236, 189, 226);
+    color: black;
+}
+  

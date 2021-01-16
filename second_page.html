@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style2.css">
+
+    <title>EXplore</title>
+</head>
+<body >
+  <h1>ARTWORK</h1>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" ><img src="img11.png"width="500px" height="500px" style="border-radius: 10%;"></div>
+          <div class="swiper-slide" ><img src="img12.png"width="500px" height="500px" style="border-radius: 10%;"></div>
+          <div class="swiper-slide" ><img src="img13.png"width="500px" height="500px" style="border-radius: 10%;"></div>
+          <div class="swiper-slide" ><img src="img14.png"width="500px" height="500px" style="border-radius: 10%;"></div>
+          <div class="swiper-slide" ><img src="img15.png" width="500px" height="500px" style="border-radius: 10%;"></div>
+          <div class="swiper-slide" ><img src="img16.png" width="500px" height="500px" style="border-radius: 10%;"></div>
+          <div class="swiper-slide" ><img src="img17.png" width="500px" height="500px" style="border-radius: 10%;"></div>
+          
+        </div>
+  
+      </div>
+    <h1>Meet Our Artists</h1>
+    <a href="" class="album">
+      <img src="img18.png" alt="img"class="photo1" width="400px"height="400px" style="border-radius: 10%;">
+      <img src="img19.png"alt="img" class="photo2" width="400px"height="400px"style="border-radius: 10%;">
+      <img src="img6.png" alt="img" class="photo3" width="400px"height="400px"style="border-radius: 10%;">
+      <img src="img22.png" alt="img"class="photo5" width="400px"height="400px"style="border-radius: 10%;">
+      <img src="img21.png" alt="img"class="photo4" width="400px"height="400px"style="border-radius: 10%;">
+      <img src="img23.png" alt="Aditya"class="photo5" width="400px"height="400px"style="border-radius: 10%;">
+      
+    </a>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          clickCursor: true,
+          
+          centeredSlides: true,
+          slidesPerView: 5,
+          coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 300,
+            modifier: 1,
+            slideShadows: true,
+          },
+          loop: true,
+        });
+      </script>
+      
+       
+</body>
+</html>
